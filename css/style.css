@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: hsl(217, 54%, 11%);
+    color: hsl(216, 50%, 16%);
+    color: hsl(215, 32%, 27%);
+    color: hsl(178, 100%, 50%);
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+    font-weight: 300;
+}
+
+.special__price p {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    margin-left: 7px;
+}
+
+.special__time p {
+    margin-left: 7px;
+}
+
+.card {
+    margin-top: 15px;
+    max-width: 350px;
+    padding: 22px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+.img__wrapper {
+    position: relative;
+}
+
+.main__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.img__overlay {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    border-radius: 10px;
+    /* display: none; */
+}
+
+.img__overlay:hover {
+    opacity: 1;
+}
+
+.overlay__item {
+
+}
+
+
+
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.special {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special__price {
+    display: flex;
+    align-items: center;
+}
+
+.special__time {
+    display: flex;
+    align-items: center;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.author p a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.author p a:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
